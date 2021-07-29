@@ -161,6 +161,10 @@ input {
     outline: none;
 }
 
+.main {
+    overflow-x: hidden;
+}
+
 
 /* css classes */
 
