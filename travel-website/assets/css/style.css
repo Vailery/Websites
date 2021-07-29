@@ -247,6 +247,24 @@ input {
 }
 
 
+/* active link */
+
+.active-link {
+    position: relative;
+    color: var(--title-color);
+}
+
+.active-link::before {
+    content: '';
+    position: absolute;
+    background-color: var(--title-color);
+    width: 100%;
+    height: 2px;
+    bottom: -.75rem;
+    left: 0;
+}
+
+
 /* home */
 
 .home__img {
