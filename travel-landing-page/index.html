@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -50,10 +50,10 @@
 
     <!-- Main -->
     <main class="main">
-        <div>
-            <div>
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
                 <!-- Island 1 -->
-                <section class="islands">
+                <section class="islands swiper-slide">
                     <img src="assets/img/borabora.jpg" alt="image" class="islands__bg">
 
                     <div class="islands__container bg-container">
@@ -73,7 +73,7 @@
                 </section>
 
                 <!-- Island 2 -->
-                <section class="islands">
+                <section class="islands swiper-slide">
                     <img src="assets/img/bali.jpg" alt="image" class="islands__bg">
 
                     <div class="islands__container bg-container">
@@ -93,7 +93,7 @@
                 </section>
 
                 <!-- Island 3 -->
-                <section class="islands">
+                <section class="islands swiper-slide">
                     <img src="assets/img/palawan.jpg" alt="image" class="islands__bg">
 
                     <div class="islands__container bg-container">
@@ -126,11 +126,11 @@
         </div>
 
         <!-- Controls -->
-        <div class="controls">
-            <div class="controls__container">
-                <img src="assets/img/borabora.jpg" alt="image" class="controls__img">
-                <img src="assets/img/bali.jpg" alt="image" class="controls__img">
-                <img src="assets/img/palawan.jpg" alt="image" class="controls__img">
+        <div class="controls gallery-thumbs">
+            <div class="controls__container swiper-wrapper">
+                <img src="assets/img/borabora.jpg" alt="image" class="controls__img swiper-slide">
+                <img src="assets/img/bali.jpg" alt="image" class="controls__img swiper-slide">
+                <img src="assets/img/palawan.jpg" alt="image" class="controls__img swiper-slide">
             </div>
         </div>
     </main>
@@ -139,7 +139,7 @@
     <script src=""></script>
 
     <!-- Swiper JS -->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>

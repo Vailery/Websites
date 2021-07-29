@@ -293,5 +293,13 @@ img {
 
 /* Active controls */
 
+.swiper-slide-thumb-active {
+    width: 45px;
+    height: 45px;
+}
+
 
 /* Media queries */
+
+
+/* For tall screens on mobiles y desktop */
