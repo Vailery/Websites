@@ -12,7 +12,7 @@ const cover = document.querySelector('#cover')
 const songs = ['OneRepublic - Run', 'RagnBoneMan - Skin', 'Rudimental Tom Walker - WalkAlone']
 
 // Keep trak of songs
-let songIndex = 2
+let songIndex = 0
 
 // Initially load info DOM
 loadSong(songs[songIndex])
@@ -49,6 +49,9 @@ function prevSong() {
         songIndex = songs.length - 1
     }
 
+    progress.style.width = `0%`
+    audio.currentTime = 0
+
     loadSong(songs[songIndex])
 
     playSong()
@@ -60,6 +63,9 @@ function nextSong() {
     if (songIndex > songs.length - 1) {
         songIndex = 0
     }
+
+    progress.style.width = `0%`
+    audio.currentTime = 0
 
     loadSong(songs[songIndex])
 
