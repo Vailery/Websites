@@ -91,3 +91,14 @@ function finalVideo() {
 }
 // ended, whe the video ends
 videoFile.addEventListener('ended', finalVideo)
+
+// show scroll up
+
+function scrollUp() {
+    const scrollUp = document.getElementById('scroll-up')
+        // when the scroll is higher than 200 viewport height, add the show-scroll class to the a tag with the scroll
+    if (this.scrollY >= 200) scrollUp.classList.add('show-scroll');
+    else scrollUp.classList.remove('show-scroll')
+}
+
+window.addEventListener('scroll', scrollUp)
