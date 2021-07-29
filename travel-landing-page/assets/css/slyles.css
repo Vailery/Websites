@@ -193,7 +193,7 @@ img {
     margin-bottom: 1rem;
 }
 
-.islands_button {
+.islands__button {
     display: inline-flex;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -203,7 +203,7 @@ img {
     font-weight: var(--font-medium);
 }
 
-.islands_button:hover {
+.islands__button:hover {
     background-color: var(--body-color);
 }
 
